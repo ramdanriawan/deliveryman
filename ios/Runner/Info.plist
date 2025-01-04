@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
-	<key>CFBundleDisplayName</key>
-	<string>Delivery</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +11,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>delivery</string>
+	<string>fashion24_deliveryman</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -28,6 +26,25 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSCameraUsageDescription</key>
+    <string>This app requires access to the camera for update user profile.</string>
+    <key>NSContactsUsageDescription</key>
+    <string>This app requires access to the contact for deliveryman.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>This app collects location data to enable location fetching at the time of you are online even when the app is closed or not in use.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>This app collects location data to enable location fetching at the time of you are online even when the app is closed or not in use.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app needs access to location to manage coverage of restaurant and also show the customer and restaurant distance.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app requires access to the gallery for update user profile.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>This app requires access to the access recognitions for deliveryman.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+    		<string>location</string>
+    		<string>remote-notification</string>
+    </array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -41,6 +58,8 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
